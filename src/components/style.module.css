@@ -1,0 +1,368 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#nav {
+  height: 100px;
+  width: 80%;
+  margin: 0% auto;
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav li a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #777;
+  color: white;
+}
+
+#nav li a span {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #777;
+  transition: color 0.25s ease-in-out;
+  font-size: 0.85em;
+  letter-spacing: 3px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div a h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  color: #ed786a;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.381);
+  font-size: 3em;
+  font-weight: bolder;
+  letter-spacing: 13px;
+  margin-left: 330px;
+}
+
+p {
+  margin-left: 350px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #888;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+#hr {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+#hr hr {
+  margin-top: 10px;
+  border: 1.5px solid rgba(203, 202, 202, 0.559);
+  width: 90%;
+}
+
+#section_block {
+  height: 700px;
+  width: 100%;
+}
+
+#para p {
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 0% auto;
+  margin-top: 60px;
+}
+
+#imges {
+  width: 95%;
+  height: 400px;
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgs {
+  border: 5px solid rgba(128, 128, 128, 0.345);
+}
+
+.paragraph1 {
+  height: 20px;
+  width: 98%;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.paragraph2 {
+  height: 150px;
+  width: 98%;
+  margin: 0% auto;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.paragraph2 span {
+  height: 100px;
+  width: 28%;
+  text-align: center;
+  font-weight: lighter;
+  color: #777;
+}
+
+.paragraph2 span a {
+  color: #777;
+}
+
+#button {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#button a {
+  height: 50px;
+  width: 200px;
+  border: none;
+  background-color: #ed786a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.621);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#imgsec {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 3px solid rgba(128, 128, 128, 0.356);
+}
+
+#banner {
+  height: 330px;
+  width: 100%;
+  margin: 0% auto;
+  background-image: url(../imges/stimg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner p {
+  margin: 0% auto;
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+
+#foot {
+  height: 620px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(98, 98, 98, 0.09);
+}
+
+#heading h2 {
+  height: 100px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  margin: 0% auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #616161;
+}
+
+#forminfo {
+  height: 380px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+#form {
+  height: 400px;
+  width: 50%;
+}
+
+#info {
+  height: 400px;
+  width: 50%;
+}
+#form #inpall {
+  height: 50px;
+  width: 90%;
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#form #inp1 {
+  height: 40px;
+  width: 250px;
+  padding-left: 5px;
+  border: none;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.411);
+  border-radius: 3px;
+}
+
+#form #inp2 {
+  height: 40px;
+  width: 250px;
+  padding-left: 5px;
+  border: none;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.411);
+  border-radius: 3px;
+}
+
+#form #tarea {
+  height: 200px;
+  width: 90%;
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#tarea #inp3 {
+  height: 150px;
+  width: 95%;
+  padding: 5px;
+  border: none;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.411);
+  border-radius: 3px;
+}
+
+#buttonfoot a {
+  height: 50px;
+  width: 200px;
+  border: none;
+  margin-left: 45px;
+  background-color: #ed786a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.621);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#info p {
+  height: 100px;
+  width: 100%;
+
+  margin: 0% auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+#list {
+  display: flex;
+}
+
+#list .listall {
+  height: 200px;
+  width: 100%;
+  padding-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  
+}
+
+.listall ul {
+  height: 200px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  
+}
+
+.listall ul li a {
+  padding-left: 20px;
+  color: #777;
+  text-decoration: underline rgba(35, 35, 35, 0.1);
+}
+
+.listall ul li i {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #777;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+
+#end {
+  height: 100px;
+  width: 95%;
+  border-top: 2px solid rgba(66, 66, 66, 0.1); 
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#end span {
+  padding-right: 5px;
+  padding-left: 7px;
+  color: #777;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+#end span span {
+  color: #7777776b;
+}
+
+#end span a {
+  color: #777;
+}
